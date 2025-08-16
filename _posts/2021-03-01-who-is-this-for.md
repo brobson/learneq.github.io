@@ -1,6 +1,6 @@
 ---
 title: "Who Is This For?"
-description: "At **The Intersectional Business Academy**, these programs are for anyone who values growth, balance, and walking forward with confidence, clarity, and community support."
+description: ""
 picture: blog1.jpg
 
 label_default: "programs" 
