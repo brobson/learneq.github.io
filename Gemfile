@@ -8,7 +8,16 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.5.2"
+
+#Add "#" to the beginning of the line that starts with gem "jekyll" to comment out this line.
+#Add the github-pages gem by editing the line starting with # gem "github-pages". Change this line to:
+#gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+#Replace GITHUB-PAGES-VERSION with the latest supported version of the github-pages gem. You can find this version here: Dependency versions. https://pages.github.com/versions.json
+#The correct version Jekyll will be installed as a dependency of the github-pages gem.
+
+
+#gem "jekyll", "3.5.2"
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
