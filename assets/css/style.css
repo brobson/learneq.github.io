@@ -8,6 +8,49 @@ Description:Creative is a single page html template based on bootstrap 3
 Version:1.0.0
 License:GNU General Public License v2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
+
+original theme colors
+
+heading active link outer
+#74B9B9 Light Greenblue
+changed to
+#791533 Dark Crimson
+or #000 black
+
+heading active link inner
+#6BAAA8 darker greenblue
+changed to
+#000 black 
+or #791533 Dark Crimson
+
+link text bluegreen
+#55CBD2
+to
+#5580D2
+
+almost black bluegreen background
+#061F20
+to
+#200617
+
+sidebar bluegreen background 
+#528C7C
+to
+#89154d middle pink (not dark or light)
+
+background off white/blue
+#F8FAFF
+changed to
+#eae2e6
+#dbc0cd  offwhite pink
+
+
+services icon colors
+#1bbd9b
+to
+#791533
+
+
 */
 
  /*
@@ -83,7 +126,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 }
 .carousel-inner{
   width:100%;
-  max-height: 600px !important;
+  max-height: 700px !important;
 }
 .post-sidebar{
     margin-top: 15px;
@@ -123,7 +166,7 @@ float: right;
     padding:10px;
 }
 .current span{
-    color:#55CBD2;
+    color:#5580D2;
 
 }
 
@@ -148,11 +191,11 @@ float: right;
 body {
     font-size: 15px;
     line-height: 24px;
-    background:#F8FAFF;
+    background:#eae2e6;
 }
 
 a {
-    color: #55CBD2;
+    color: #5580D2;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -194,7 +237,7 @@ address {
 .nav-pills > li.selected > a:hover,
 .nav-pills > li.selected > a:focus {
   color: #ffffff;
-  background-color: #1bbd9b;
+  background-color: #791533;
 }
 /*
 * ==========================================================================
@@ -218,7 +261,7 @@ address {
 .nav-pills-centered > .nav-pills > li > a.selected,
 .nav-pills-centered > .nav-pills > li > span.selected {
   color: #ffffff;
-  background-color: #1bbd9b;
+  background-color: #791533;
 }
 /*
 * ==========================================================================
@@ -226,7 +269,7 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#74B9B9 !important;
+  background:#000 !important;
   color: white;
 }
 .navbar {
@@ -259,7 +302,7 @@ address {
   padding-top: 0px;
 }
 .side-left{
-  background:#528C7C;
+  background:#89154d;
   box-shadow: 3px grey;
   color: white;
   padding: 30px;
@@ -407,7 +450,7 @@ p.blog-text{
   }
 }
 .feedback-section .address-section .address-icon {
-  color: #1bbd9b;
+  color: #791533;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 30px;
@@ -440,7 +483,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #1bbd9b;
+  color: #791533;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -464,13 +507,13 @@ p.blog-text{
 .services-icon .fa:hover{
     padding: 0 10px 0 10px;
     color: white;
-    background: #1BBD9B;
+    background: #791533;
     border-radius: 3px; 
     transition:.4s;  
 }
 .services-group{
   padding: 10px;
-  background:#061F20;
+  background:#200617;
   color: white;
 }
 .service-icon{
@@ -525,7 +568,7 @@ footer h3 {
 }
 
 #social-icons .btn-group {
-    color: #55CBD2;
+    color: #5580D2;
     margin-right: 15px;
 }
 #social-icons .btn-group:hover {
