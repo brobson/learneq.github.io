@@ -237,7 +237,7 @@ address {
 .nav-pills > li.selected > a:hover,
 .nav-pills > li.selected > a:focus {
   color: #ffffff;
-  background-color: #791533;
+  background-color: #000;
 }
 /*
 * ==========================================================================
@@ -269,7 +269,7 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#000 !important;
+  background:#791533 !important;
   color: white;
 }
 .navbar {
