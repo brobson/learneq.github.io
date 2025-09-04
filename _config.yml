@@ -51,7 +51,6 @@ theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-font-awesome-sass
 
 # Exclude from processing.
 # The following items will not be processed, by default.
