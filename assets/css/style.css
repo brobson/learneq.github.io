@@ -504,7 +504,7 @@ p.blog-text{
     margin-top: 0;
   }
 }
-.services-icon .fa:hover{
+.services-icon .fa-solid:hover{
     padding: 0 10px 0 10px;
     color: white;
     background: #791533;
