@@ -125,7 +125,9 @@ to
     margin-bottom: 20px;
 }
 .carousel-inner{
-  width:100%;
+  /* width:100%; */
+  right: 20%;
+  left: 20%;
   max-height: 500px !important;
 }
 .post-sidebar{
